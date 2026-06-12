@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="長興極限空間 - 提供幼兒體操、兒童及成人極限武術、空翻教學與體能訓練。臺北專業極限運動空間。">
+    <title>長興極限空間 | Changxing Extreme Space</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700;900&family=Outfit:wght@300;600;900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- JS -->
+    <script src="script.js" defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4TYQ74S48"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-G4TYQ74S48');
+    </script>
+</head>
+<body>
+    <!-- Cursor follower for aesthetic touch -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text-ch">長興極限空間</span>
+                <span class="logo-text-en">CHANGXING</span>
+            </a>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">關於我們</a>
+                <a href="#classes" class="nav-link">課程介紹</a>
+                <a href="#contact" class="nav-link">聯絡資訊</a>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-nav">
+        <a href="#about" class="mobile-link">關於我們<br><span>About Us</span></a>
+        <a href="#classes" class="mobile-link">課程介紹<br><span>Classes</span></a>
+        <a href="#contact" class="mobile-link">聯絡資訊<br><span>Contact</span></a>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/hero_background.png" alt="Tricking Mid-air Flip" id="hero-img">
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-subtitle reveal-up delay-1">突破界限．對抗重力</div>
+            <h1 class="hero-title reveal-up delay-2">超越極限<br>挑戰重力</h1>
+            <p class="hero-desc reveal-up delay-3">最專業的極限武術、空翻與體操訓練基地</p>
+            <div class="hero-actions reveal-up delay-4">
+                <a href="#classes" class="btn btn-primary">探索課程 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                <a href="#contact" class="btn btn-secondary">立即聯絡</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>向下捲動</span>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Marquee Section -->
+    <div class="marquee-section">
+        <div class="marquee-inner">
+            <span>GYMNASTICS /// TRICKING /// FLIPS /// PHYSICAL TRAINING /// 幼兒體操 /// 極限武術 /// 空翻教學 /// 體能訓練 ///</span>
+            <span>GYMNASTICS /// TRICKING /// FLIPS /// PHYSICAL TRAINING /// 幼兒體操 /// 極限武術 /// 空翻教學 /// 體能訓練 ///</span>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal-left">
+                    <h2 class="section-title">我們的理念<span>關於我們</span></h2>
+                    <p class="lead">長興極限空間位於臺北，是專為挑戰極限、突破自我而生的室內運動場館。</p>
+                    <p>無論您是幼兒、兒童還是成人，我們提供最安全、最專業的環境。從基礎的墊上體操、空翻技巧，到高階的 extreme martial arts (極限武術)，幫助每個年齡層發掘身體的無限潛能。</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3 class="stat-num">100%</h3>
+                            <p class="stat-label">專業防護設備</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-num">All</h3>
+                            <p class="stat-label">涵蓋全齡層</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual reveal-right">
+                    <div class="visual-box">
+                        <img src="images/tricking_adults.png" alt="Adult Tricking" class="about-img">
+                        <div class="visual-accent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section class="classes section" id="classes">
+        <div class="container">
+            <h2 class="section-title text-center reveal-up">課程專區<span>課程介紹</span></h2>
+            
+            <div class="cards-grid">
+                <!-- Toddler Class -->
+                <div class="class-card reveal-up delay-1">
+                    <div class="card-img-wrapper">
+                        <img src="images/toddler_gymnastics.png" alt="Toddler Gymnastics">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-badge">幼小</div>
+                        <h3>幼兒體操</h3>
+                        <p>專為學齡前兒童設計，透過安全的軟墊環境，培養基礎協調性、平衡感與自信心。</p>
+                        <a href="#contact" class="card-btn">了解詳情 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+
+                <!-- Kids Class -->
+                <div class="class-card reveal-up delay-2">
+                    <div class="card-img-wrapper">
+                        <img src="images/kids_acrobatics.png" alt="Kids Acrobatics">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-badge">兒童</div>
+                        <h3>兒童武術與空翻</h3>
+                        <p>以引導式教學，讓孩子掌握空翻技巧與肢體律動，提升肌力與爆發力，安全又充滿樂趣。</p>
+                        <a href="#contact" class="card-btn">了解詳情 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+
+                <!-- Adult Class -->
+                <div class="class-card reveal-up delay-3">
+                    <div class="card-img-wrapper">
+                        <img src="images/tricking_adults.png" alt="Adult Tricking">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-badge">成人</div>
+                        <h3>極限武術 / 體能訓練</h3>
+                        <p>針對成人的進階指導 (Tricking)，挑戰高難度翻轉特效，同時提供全面性的體適能強化。</p>
+                        <a href="#contact" class="card-btn">了解詳情 <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section class="contact section" id="contact">
+        <div class="contact-wrap">
+            <div class="contact-info reveal-left">
+                <h2 class="section-title">位置與聯絡資訊<span>聯絡我們</span></h2>
+                <div class="info-list">
+                    <div class="info-item">
+                        <div class="info-icon"><ion-icon name="location-outline"></ion-icon></div>
+                        <div>
+                            <h4>場館地址</h4>
+                            <p>臺北市大同區重慶北路二段162號1樓</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><ion-icon name="call-outline"></ion-icon></div>
+                        <div>
+                            <h4>聯絡電話</h4>
+                            <p>0955-305-205</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><ion-icon name="time-outline"></ion-icon></div>
+                        <div>
+                            <h4>營業時間</h4>
+                            <p>依照各項課程時段預約制，歡迎私訊粉專</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.facebook.com/search/top?q=長興極限空間" target="_blank" class="social-btn" aria-label="Facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="social-btn" aria-label="Instagram">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://maps.google.com/?q=臺北市大同區重慶北路二段162號1樓" target="_blank" class="social-btn" aria-label="Google Maps">
+                        <ion-icon name="map"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="contact-map reveal-right">
+                <!-- Using a grayscale filter on Google Maps iframe -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.3725471464455!2d121.5126!3d25.0552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDAzJzE4LjciTiAxMjHCsDMwJzQ1LjQiRQ!5e0!3m2!1szh-TW!2stw!4v1620000000000!5m2!1szh-TW!2stw" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer-logo">CHANGXING</div>
+            <p>&copy; 2014 長興極限空間 Changxing Extreme Space. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
