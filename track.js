@@ -4,7 +4,7 @@
  */
 (function () {
   var PIXEL_ID = '480170199428429';
-  var GA4_ID = ''; // ← 例：'G-XXXXXXXXXX'，留空則不載入 GA4
+  var GA4_ID = 'G-G4TYQ74S48';
 
   /* ===== Meta Pixel 基底碼 ===== */
   !function (f, b, e, v, n, t, s) {

@@ -3,9 +3,80 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>長興極限空間 ｜ 台北空翻．極限武術 Tricking．兒童體操教室</title>
-<meta name="description" content="長興極限空間 — 台北空翻、極限武術 Tricking、兒童體操。從零開始，挑戰你的第一個空翻。圓山館 Google 4.9★。">
-<link rel="stylesheet" href="style.css">
+<title>長興極限空間｜台北空翻．極限武術 Tricking．兒童體操教室</title>
+<meta name="description" content="長興極限空間 — 台北空翻課程、極限武術 Tricking、兒童體操・兒童體適能。2 歲半到 45 歲，都能學會人生第一個後空翻。圓山館・重慶館。">
+<link rel="stylesheet" href="style.css?v=20260611d">
+<link rel="icon" type="image/png" href="img/favicon.png?v=3">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png?v=3">
+<script defer src="track.js?v=1"></script>
+<link rel="canonical" href="https://changxing-extreme-space.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="長興極限空間">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="長興極限空間｜台北空翻．極限武術 Tricking．兒童體操教室">
+<meta property="og:description" content="長興極限空間 — 台北空翻課程、極限武術 Tricking、兒童體操・兒童體適能。2 歲半到 45 歲，都能學會人生第一個後空翻。圓山館・重慶館。">
+<meta property="og:url" content="https://changxing-extreme-space.com/">
+<meta property="og:image" content="https://changxing-extreme-space.com/img/hero-flip.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="801">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="長興極限空間｜台北空翻．極限武術 Tricking．兒童體操教室">
+<meta name="twitter:description" content="長興極限空間 — 台北空翻課程、極限武術 Tricking、兒童體操・兒童體適能。2 歲半到 45 歲，都能學會人生第一個後空翻。圓山館・重慶館。">
+<meta name="twitter:image" content="https://changxing-extreme-space.com/img/hero-flip.jpg">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://changxing-extreme-space.com/#org",
+   "name": "長興極限空間",
+   "url": "https://changxing-extreme-space.com/",
+   "foundingDate": "2014",
+   "telephone": "+886-955-305-205",
+   "sameAs": [
+    "https://line.me/R/ti/p/@362krgjo"
+   ]
+  },
+  {
+   "@type": "SportsActivityLocation",
+   "@id": "https://changxing-extreme-space.com/#yuanshan",
+   "name": "長興極限空間 圓山館",
+   "url": "https://changxing-extreme-space.com/",
+   "image": "https://changxing-extreme-space.com/img/hero-flip.jpg",
+   "telephone": "+886-955-305-205",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "承德路三段287-2號101室",
+    "addressLocality": "大同區",
+    "addressRegion": "台北市",
+    "addressCountry": "TW"
+   },
+   "sameAs": [
+    "https://line.me/R/ti/p/@362krgjo"
+   ]
+  },
+  {
+   "@type": "SportsActivityLocation",
+   "@id": "https://changxing-extreme-space.com/#chongqing",
+   "name": "長興極限空間 重慶館",
+   "url": "https://changxing-extreme-space.com/",
+   "image": "https://changxing-extreme-space.com/img/hero-flip.jpg",
+   "telephone": "+886-955-305-205",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "重慶北路二段162號",
+    "addressLocality": "大同區",
+    "addressRegion": "台北市",
+    "addressCountry": "TW"
+   },
+   "sameAs": [
+    "https://line.me/R/ti/p/@362krgjo"
+   ]
+  }
+ ]
+}
+</script>
 </head>
 <body>
 
@@ -16,288 +87,202 @@
     <span>教練全程保護</span>
     <span>零基礎可參加</span>
     <span>2 歲半到 45 歲都能練</span>
-    <span>2026 夏令營招生中</span>
+    <span>2026 夏令營額滿・開放候補</span>
     <span>沒有極限 · CHANGXING EXTREME</span>
     <span>台北在地教學 12 年</span>
     <span>教練全程保護</span>
     <span>零基礎可參加</span>
     <span>2 歲半到 45 歲都能練</span>
-    <span>2026 夏令營招生中</span>
+    <span>2026 夏令營額滿・開放候補</span>
   </div>
 </div>
 
-<nav class="nav">
+<nav class="nav" aria-label="主導覽">
   <div class="nav-inner">
-    <a class="nav-logo" href="index.html">
-      <span class="pulse"></span>
-      長興極限空間
-    </a>
+    <a class="brand" href="index.html"><img src="img/logo-black-ring.png" alt="" width="30" height="30" style="display:block;">長興極限空間</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-cb" hidden>
+    <label for="nav-toggle" class="nav-toggle" aria-label="開關選單">☰</label>
     <div class="nav-links">
       <a href="index.html" class="active">首頁</a>
-      <a href="courses.html">課程介紹</a>
+      <div class="has-sub">
+        <a href="courses.html">課程介紹 ▾</a>
+        <div class="sub-menu">
+          <a href="course-preschool.html">幼兒體操（2.5–6 歲）</a>
+          <a href="course-kids.html">兒童極限武術（6–15 歲）</a>
+          <a href="course-flip.html">空翻專攻班（15+ 想學空翻）</a>
+          <a href="course-adult.html">成人極限武術（15+ 全面學）</a>
+        </div>
+      </div>
+      <a href="courses.html#timetable">課表</a>
       <a href="safety.html">安全與場地</a>
-      <a href="rules.html">報名須知</a>
+      <a href="faq.html">常見問題</a>
       <a href="contact.html">交通與聯絡</a>
+      <a class="primary" href="booking.html">預約體驗課</a>
     </div>
-    <a href="booking.html" class="nav-cta">預約體驗課 →</a>
   </div>
 </nav>
 
-<!-- HERO -->
+<main>
 <section class="hero">
-  <div class="hero-tags">
-    <div class="tag"><span class="dot"></span>EST. 2014</div>
-    <div class="tag"><span class="dot"></span>TAIPEI / TAIWAN</div>
-    <div class="tag"><span class="dot"></span>NOW ENROLLING</div>
-  </div>
-  <div class="hero-main">
-    <div class="hero-tag">CHANGXING EXTREME</div>
-    <h1>
-      <span class="line zh">沒有極限</span>
-      <span class="line stroke">NO</span>
-      <span class="line acid">LIMITS</span>
-    </h1>
-    <p class="hero-claim">2 歲半到 45 歲，都能學會<span class="acid">人生第一個後空翻</span>。</p>
-  </div>
-  <div class="hero-bottom">
-    <p class="hero-lead">
-      不是只練給人看，是練到 <strong>自己都嚇一跳</strong>。<br>
-      零基礎、教練全程保護，第一個後空翻只是起點。
-    </p>
-    <a href="booking.html" class="btn-mega">
-      預約體驗課
-      <span class="arrow">→</span>
-    </a>
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">沒有極限 · NO LIMITS</div>
+      <h1><span>2 歲半到 45 歲，</span><span>都能學會人生</span><span><span class="highlight">第一個後空翻</span>。</span></h1>
+      <p class="hero-lead">幼兒體操、兒童極限武術、成人極限武術與空翻專攻。零基礎、教練全程保護，從基礎翻滾、氣墊練習到真正落地，一步一步把不可能變成做得到。</p>
+      <div class="small-label" style="margin-bottom:10px;">FIND YOUR CLASS · 找你的課程</div>
+      <div class="age-split">
+        <a class="age-card" href="course-preschool.html"><b>2.5 – 6 歲</b><span>幼兒體操班</span></a>
+        <a class="age-card" href="course-kids.html"><b>6 – 15 歲</b><span>兒童極限武術</span></a>
+        <a class="age-card" href="course-flip.html"><b>15+｜想學空翻</b><span>空翻專攻班</span></a>
+        <a class="age-card" href="course-adult.html"><b>15+｜全面學</b><span>成人極限武術</span></a>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-main" href="booking.html">預約體驗課 →</a>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- 大數據條 -->
-<div class="stats-strip">
-  <div class="stats-strip-track">
-    <div class="item">10,526 <span class="star">✦</span> FB FOLLOWERS</div>
-    <div class="item">3,459 <span class="star">✦</span> IG FOLLOWERS</div>
-    <div class="item">4.9★ <span class="star">✦</span> GOOGLE RATING</div>
-    <div class="item">2 <span class="star">✦</span> LOCATIONS TAIPEI</div>
-    <div class="item">10,526 <span class="star">✦</span> FB FOLLOWERS</div>
-    <div class="item">3,459 <span class="star">✦</span> IG FOLLOWERS</div>
-    <div class="item">4.9★ <span class="star">✦</span> GOOGLE RATING</div>
-    <div class="item">2 <span class="star">✦</span> LOCATIONS TAIPEI</div>
-  </div>
-</div>
-
-<!-- 課程介紹 -->
-<section class="home-courses">
+<section class="section">
   <div class="container">
     <div class="section-head">
       <div class="section-num">01</div>
       <div>
-        <h2>課程<span class="acid">介紹</span>。</h2>
-        <div class="sub">FIND YOUR CLASS · 從 2 歲半幼兒到成人挑戰者，都有對應的訓練路線</div>
+        <h2>課程介紹</h2>
+        <p class="section-sub">從 2 歲半幼兒到成人挑戰者，都有對應的訓練路線。目標不是硬衝動作，而是用適合的進度建立力量、協調與自信。</p>
       </div>
     </div>
-    <div class="hc-grid">
-      <a href="course-preschool.html" class="hc-card">
-        <img src="img/preschool.jpg" alt="幼兒體操班" loading="lazy">
-        <div class="hc-body">
-          <div class="hc-age">2 歲半 – 6 歲</div>
+    <div class="courses-grid">
+      <a class="course-card" href="course-preschool.html">
+        <img src="img/preschool.jpg" alt="幼兒體操・幼兒體適能課程" loading="lazy">
+        <div class="course-body">
+          <div class="course-kicker">2 歲半 - 6 歲</div>
           <h3>幼兒體操班</h3>
           <p>地板翻滾、空翻技巧、平衡木、單槓、跳床、跳箱，在遊戲中建立身體控制與協調。</p>
-          <div class="hc-go">看這堂課 →</div>
+          <div class="card-go">看這堂課 →</div>
         </div>
       </a>
-      <a href="course-kids.html" class="hc-card">
-        <img src="img/kids-class.jpg" alt="兒童極限武術" loading="lazy">
-        <div class="hc-body">
-          <div class="hc-age">6 – 15 歲</div>
+      <a class="course-card" href="course-kids.html">
+        <img src="img/kids-class.jpg" alt="兒童極限武術・兒童體適能課程" loading="lazy">
+        <div class="course-body">
+          <div class="course-kicker">6 - 15 歲</div>
           <h3>兒童極限武術</h3>
           <p>踢技、空翻、轉體三大技法，搭配旋子轉體、TD Raiz、Corkscrew 等特技動作。</p>
-          <div class="hc-go">看這堂課 →</div>
+          <div class="card-go">看這堂課 →</div>
         </div>
       </a>
-      <a href="course-adult.html" class="hc-card">
-        <img src="img/adult-tricking.jpg" alt="成人極限武術 Tricking 道服撐地踢腿動作" loading="lazy">
-        <div class="hc-body">
-          <div class="hc-age">15 歲以上・零基礎可</div>
+      <a class="course-card" href="course-adult.html">
+        <img src="img/adult-tricking.jpg" alt="成人極限武術 Tricking 道服單手撐地踢腿動作" loading="lazy">
+        <div class="course-body">
+          <div class="course-kicker">15 歲以上・零基礎可</div>
           <h3>成人極限武術</h3>
-          <p>結合空翻、踢技、轉體的綜合性運動，在安全的場地裡創造屬於你的動作風格。</p>
-          <div class="hc-go">看這堂課 →</div>
+          <p><strong>踢技、空翻、轉體都想學？選這堂。</strong>綜合性運動，在安全場地裡創造屬於自己的動作風格。</p>
+          <div class="card-go">看這堂課 →</div>
         </div>
       </a>
-      <a href="course-flip.html" class="hc-card">
-        <img src="img/flip-class.jpg" alt="空翻專攻班" loading="lazy">
-        <div class="hc-body">
-          <div class="hc-age">15 歲以上・零基礎可</div>
+      <a class="course-card" href="course-flip.html">
+        <img src="img/flip-class.jpg" alt="空翻專攻班・台北空翻課程" loading="lazy">
+        <div class="course-body">
+          <div class="course-kicker">15 歲以上・零基礎可</div>
           <h3>空翻專攻班</h3>
-          <p>前空翻、後空翻、側空翻、側手翻、後手翻完整訓練，零基礎也能安全學會空翻。</p>
-          <div class="hc-go">看這堂課 →</div>
+          <p><strong>只想學會空翻？選這堂。</strong>前空翻、後空翻、側空翻完整訓練，零基礎也能安全學會。</p>
+          <div class="card-go">看這堂課 →</div>
         </div>
       </a>
     </div>
   </div>
 </section>
 
-<!-- FEATURES -->
-<section id="features" class="features">
+<section class="section safety">
   <div class="container">
     <div class="section-head">
       <div class="section-num">02</div>
       <div>
-        <h2>WHY US.<br><span class="acid">為什麼</span> 是<span class="hot">我們</span>。</h2>
-        <div class="sub">FOUR REASONS · 四個理由</div>
+        <h2>安全與場地</h2>
+        <p class="section-sub">空翻看起來刺激，但會不會受傷，取決於兩件事 — 場地，與教練的手。這兩件事，我們都做到位。</p>
       </div>
     </div>
-  </div>
-  <div class="features-grid">
-    <div class="feature">
-      <span class="icon">⚡</span>
-      <div class="num">01 / SAFETY</div>
-      <h3>安全是<br>底線</h3>
-      <p>頂級氣墊、軟墊、保護器材。教練全程陪同保護，從零基礎也能放心 send 出去。</p>
+    <div class="safety-layout">
+      <div class="safety-photo" role="img" aria-label="教練保護學員練習空翻"></div>
+      <div class="safety-list">
+        <article class="safety-item">
+          <div class="small-label">SAFETY FIRST</div>
+          <h3>教練全程保護</h3>
+          <p>從助跑、起跳、抱膝到落地，每一步都有教練看動作、補保護，不讓學員靠猜測硬試。</p>
+        </article>
+        <article class="safety-item">
+          <div class="small-label">SOFT LANDING</div>
+          <h3>氣墊與軟墊配置</h3>
+          <p>用氣墊、軟墊降低恐懼與衝擊，跌倒不會痛 — 這是大部分學員敢嘗試第一次的關鍵。</p>
+        </article>
+        <article class="safety-item">
+          <div class="small-label">STEP BY STEP</div>
+          <h3>分解式進度</h3>
+          <p>零基礎不直接做完整空翻，而是拆成翻滾、彈跳、核心、轉體與落地控制，不跳級、不勉強。</p>
+        </article>
+        <article class="safety-item">
+          <div class="small-label">SMALL CLASS</div>
+          <h3>小班教學</h3>
+          <p>教練照顧得到每一個人，姿勢問題當堂被看見、當堂修正，不會被丟在角落。</p>
+        </article>
+      </div>
     </div>
-    <div class="feature">
-      <span class="icon">🎯</span>
-      <div class="num">02 / EXPERTS</div>
-      <h3>真正的<br>教練</h3>
-      <p>多年實戰經驗。沒有制式教學，只有為你量身打造的進度。</p>
-    </div>
-    <div class="feature">
-      <span class="icon">🌱</span>
-      <div class="num">03 / NO BASE</div>
-      <h3>零基礎<br>可參加</h3>
-      <p>不需要任何運動底子。第一次來的人，下課時通常已經會了一個全新動作。</p>
-    </div>
-    <div class="feature">
-      <span class="icon">🔥</span>
-      <div class="num">04 / GROWTH</div>
-      <h3>練的不是<br>動作</h3>
-      <p>是膽量、是自信、是「我做到了」的瞬間。技術只是副產品。</p>
+    <div class="hero-actions" style="margin-top:18px;">
+      <a class="btn" href="safety.html">了解安全與場地 →</a>
     </div>
   </div>
 </section>
 
-<!-- EXPLORE 分頁導覽 -->
-<section class="explore">
+<section class="section">
   <div class="container">
     <div class="section-head">
       <div class="section-num">03</div>
-      <div>
-        <h2>還想<br><span class="acid">了解</span> 什麼？</h2>
-        <div class="sub">EXPLORE · 報名前先看清楚</div>
-      </div>
+      <div><h2>學員與家長怎麼說</h2><p class="section-sub">圓山館 Google 評論 <span class="highlight">4.9 ★</span>（74 則）— 不是我們自己說的，是他們說的。</p></div>
     </div>
+    <div class="grid-3">
+    <article class="safety-item">
+      <div class="small-label" style="color:var(--green);">★★★★★ · 幼兒班家長</div>
+      <h3>「對空間的懼怕也克服了」</h3>
+      <p>參加幼兒班一期，就可以在彈跳繩協助下在彈跳床上連續後空翻。兒子對空間的懼怕克服了，發脾氣時教練也會耐心跟他慢慢講。— Richard</p>
+    </article>
+    <article class="safety-item">
+      <div class="small-label" style="color:var(--green);">★★★★★ · 空翻班學員</div>
+      <h3>「基礎很爛也找得出問題」</h3>
+      <p>我的基礎很爛、身體又很硬，教練們總是有辦法一步一步找出我的問題。每週花 2 小時通勤去上課，我也覺得非常值得！— Wendee</p>
+    </article>
+    <article class="safety-item">
+      <div class="small-label" style="color:var(--green);">★★★★★ · 兒童班家長</div>
+      <h3>「不只教武術，也帶孩子的心」</h3>
+      <p>場地好、教練好！不只教孩子武術，也帶孩子的心，小朋友在這邊學習非常安心！超級推薦！— Tanya</p>
+    </article>
   </div>
-  <div class="explore-grid">
-    <a href="safety.html" class="explore-card">
-      <div class="num">PAGE 01</div>
-      <h3>安全與場地</h3>
-      <p>保護 SOP、頂級氣墊軟墊、兩館專業場地。安全永遠是第一順位。</p>
-      <div class="go">了解安全 →</div>
-    </a>
-    <a href="rules.html" class="explore-card">
-      <div class="num">PAGE 02</div>
-      <h3>報名須知</h3>
-      <p>收費方案、服裝裝備、上課規則、常見問題 — 報名前想知道的都在這。</p>
-      <div class="go">查看須知 →</div>
-    </a>
-    <a href="booking.html" class="explore-card">
-      <div class="num">PAGE 03</div>
-      <h3>預約體驗課</h3>
-      <p>零基礎也歡迎。三步驟、選一個你最順手的方式，預約你的第一堂課。</p>
-      <div class="go">立即預約 →</div>
-    </a>
-    <a href="contact.html" class="explore-card">
-      <div class="num">PAGE 04</div>
-      <h3>交通與聯絡</h3>
-      <p>圓山館、重慶館，兩館都在大同區，捷運步行可達。地圖與聯絡方式都在這。</p>
-      <div class="go">查看交通 →</div>
-    </a>
+    <div class="hero-actions" style="margin-top:18px;">
+      <a class="btn" href="https://www.google.com/maps/place/長興極限空間圓山館" target="_blank" rel="noopener">看全部 Google 評論 →</a>
+    </div>
   </div>
 </section>
 
-<!-- GALLERY -->
-<section class="gallery">
-  <div class="gallery-head">
-    <div>
-      <h2>IN THE <span class="acid">AIR.</span></h2>
-      <div class="sub">REAL MOMENTS · 上課實拍</div>
-    </div>
-    <div style="font-size:13px;color:var(--muted);max-width:280px;letter-spacing:1px;">每一張，都是學員真實的飛行瞬間。</div>
-  </div>
-  <div class="gallery-grid">
-    <div class="gallery-item"><img src="img/hero-flip.jpg" alt="空中側翻" loading="lazy"><span class="label">SIDE FLIP ✦</span></div>
-    <div class="gallery-item"><img src="img/handstand.jpg" alt="手倒立" loading="lazy"><span class="label">HANDSTAND ✦</span></div>
-    <div class="gallery-item"><img src="img/wall-kick.jpg" alt="踢腿" loading="lazy"><span class="label">WALL KICK ✦</span></div>
-    <div class="gallery-item"><img src="img/triple.jpg" alt="團練" loading="lazy"><span class="label">TEAM ✦</span></div>
-    <div class="gallery-item"><img src="img/cartwheel.jpg" alt="側翻" loading="lazy"><span class="label">CARTWHEEL ✦</span></div>
-    <div class="gallery-item"><img src="img/sidekick.jpg" alt="側踢" loading="lazy"><span class="label">SIDE KICK ✦</span></div>
-    <div class="gallery-item"><img src="img/coach-protect.jpg" alt="教練保護" loading="lazy"><span class="label">COACH ✦</span></div>
-    <div class="gallery-item"><img src="img/group-warmup.jpg" alt="團體暖身" loading="lazy"><span class="label">WARM UP ✦</span></div>
-  </div>
-</section>
-
-<!-- REVIEWS -->
-<section id="reviews" class="reviews">
+<section class="section trial">
   <div class="container">
-    <div class="section-head">
-      <div class="section-num">04</div>
-      <div>
-        <h2>學員<br><span class="acid">真實</span> <span class="hot">心得</span>。</h2>
-        <div class="sub">VERIFIED BY GOOGLE · Google 真實評論</div>
+    <div class="trial-panel">
+      <div class="eyebrow">TRIAL CLASS</div>
+      <h2>預約體驗課</h2>
+      <p class="section-sub">第一次來不用有運動底子。付費體驗課，內容與正式課相同、教練全程保護，試了再決定要不要加入。</p>
+      <div class="steps">
+        <div class="step"><b>01</b><span>LINE 或來電，留下年齡、目標與方便時段。</span></div>
+        <div class="step"><b>02</b><span>我們協助確認適合班別、場館與體驗場次。</span></div>
+        <div class="step"><b>03</b><span>到場體驗，教練會從安全基礎開始帶。</span></div>
       </div>
-    </div>
-    <div class="review-feature">
-      <div class="score-block">
-        <div class="score">4.9</div>
-        <div class="stars">★★★★★</div>
-        <div class="from">圓山館 ｜ 72 則 GOOGLE 評論</div>
-      </div>
-      <div class="quote-block">
-        <div class="label">EDITOR'S PICK / 精選評論</div>
-        <blockquote>「我兒子情緒管理不好，但參加幼兒班一期，就可以在彈跳床上連續後空翻。」</blockquote>
-        <div class="author">— RICHARD LI ｜ GOOGLE 在地嚮導</div>
-      </div>
-    </div>
-    <div class="reviews-grid">
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <p>「非常推薦空翻班！我的基礎很爛、身體又很硬，教練們很厲害，總是有辦法一步一步找出我的問題，總是給我很大的情緒價值讓我不要自我放棄。」</p>
-        <div class="review-author">
-          <div class="author-avatar">W</div>
-          <div>
-            <div class="author-name">Wendee Hsu</div>
-            <div class="author-meta">在地嚮導 · 7 個月前</div>
-          </div>
-        </div>
-      </div>
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <p>「教練們都非常有耐心的解說，甚至有些教練下課也願意再多陪練一些動作。學了前空翻、後空翻、側空翻，越練越有成就感！」</p>
-        <div class="review-author">
-          <div class="author-avatar">J</div>
-          <div>
-            <div class="author-name">Raphaël Jou</div>
-            <div class="author-meta">在地嚮導 · 9 個月前</div>
-          </div>
-        </div>
+      <div class="hero-actions">
+        <a class="btn btn-main" href="booking.html">預約體驗課 →</a>
+        <a class="btn" href="https://line.me/R/ti/p/@362krgjo" target="_blank" rel="noopener">LINE 官方帳號 @362krgjo</a>
       </div>
     </div>
   </div>
 </section>
-
-<!-- CTA BAND -->
-<section class="cta-band">
-  <div class="container">
-    <h2>READY TO <span class="it">FLY?</span></h2>
-    <p class="lead">零基礎也歡迎。預約一堂體驗課，來感受第一次離地的瞬間。</p>
-    <a href="booking.html" class="btn-dark">
-      預約體驗課
-      <span class="arrow">→</span>
-    </a>
-  </div>
-</section>
+</main>
 
 <footer>
-  <div class="footer-mega">CHANGXING<br>EXTREME.</div>
   <div class="footer-nav">
     <a href="index.html">首頁</a>
     <a href="courses.html">課程介紹</a>
@@ -306,20 +291,15 @@
     <a href="course-adult.html">成人極限武術</a>
     <a href="course-flip.html">空翻專攻班</a>
     <a href="safety.html">安全與場地</a>
-    <a href="rules.html">報名須知</a>
+    <a href="faq.html">常見問題</a>
     <a href="booking.html">預約體驗課</a>
     <a href="contact.html">交通與聯絡</a>
   </div>
   <div class="footer-inner">
-    <div class="footer-meta">© 2026 長興極限空間 · TRICKING TAIWAN · EST. 2014</div>
-    <div class="socials">
-      <a href="https://www.facebook.com/share/16Ws2UFSaF" target="_blank" rel="noopener">f</a>
-      <a href="https://www.instagram.com/changxing_extreme/" target="_blank" rel="noopener">IG</a>
-      <a href="https://www.youtube.com/channel/UC_HUsJezgCprkdHkHRS8VMQ" target="_blank" rel="noopener">YT</a>
-    </div>
+    <div>© 2026 長興極限空間 · EST. 2014</div>
+    <div>FB @長興極限空間 · IG @changxing_extreme</div>
   </div>
 </footer>
-
 
 <div class="sticky-cta">
   <a class="call" href="tel:0955305205">☎ 0955-305-205</a>

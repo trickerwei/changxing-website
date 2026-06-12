@@ -3,9 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>預約體驗課 ｜ 長興極限空間</title>
-<meta name="description" content="預約長興極限空間體驗課。三步驟、零基礎可參加。電話、LINE、線上表單，選一個你最順手的方式，預約你的第一個空翻。">
-<link rel="stylesheet" href="style.css">
+<title>預約空翻・體操體驗課｜長興極限空間</title>
+<meta name="description" content="預約台北空翻體驗課、兒童體操體驗課。三步驟、零基礎可參加。電話或 LINE 官方帳號，預約你的第一個空翻。圓山館・重慶館。">
+<link rel="stylesheet" href="style.css?v=20260611d">
+<link rel="icon" type="image/png" href="img/favicon.png?v=3">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png?v=3">
+<script defer src="track.js?v=1"></script>
+<link rel="canonical" href="https://changxing-extreme-space.com/booking">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="長興極限空間">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="預約空翻・體操體驗課｜長興極限空間">
+<meta property="og:description" content="預約台北空翻體驗課、兒童體操體驗課。三步驟、零基礎可參加。電話或 LINE 官方帳號，預約你的第一個空翻。圓山館・重慶館。">
+<meta property="og:url" content="https://changxing-extreme-space.com/booking">
+<meta property="og:image" content="https://changxing-extreme-space.com/img/coach-protect.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="799">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="預約空翻・體操體驗課｜長興極限空間">
+<meta name="twitter:description" content="預約台北空翻體驗課、兒童體操體驗課。三步驟、零基礎可參加。電話或 LINE 官方帳號，預約你的第一個空翻。圓山館・重慶館。">
+<meta name="twitter:image" content="https://changxing-extreme-space.com/img/coach-protect.jpg">
 </head>
 <body>
 
@@ -26,152 +43,110 @@
   </div>
 </div>
 
-<nav class="nav">
+<nav class="nav" aria-label="主導覽">
   <div class="nav-inner">
-    <a class="nav-logo" href="index.html">
-      <span class="pulse"></span>
-      長興極限空間
-    </a>
+    <a class="brand" href="index.html"><img src="img/logo-black-ring.png" alt="" width="30" height="30" style="display:block;">長興極限空間</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-cb" hidden>
+    <label for="nav-toggle" class="nav-toggle" aria-label="開關選單">☰</label>
     <div class="nav-links">
       <a href="index.html">首頁</a>
-      <a href="courses.html">課程介紹</a>
+      <div class="has-sub">
+        <a href="courses.html">課程介紹 ▾</a>
+        <div class="sub-menu">
+          <a href="course-preschool.html">幼兒體操（2.5–6 歲）</a>
+          <a href="course-kids.html">兒童極限武術（6–15 歲）</a>
+          <a href="course-flip.html">空翻專攻班（15+ 想學空翻）</a>
+          <a href="course-adult.html">成人極限武術（15+ 全面學）</a>
+        </div>
+      </div>
+      <a href="courses.html#timetable">課表</a>
       <a href="safety.html">安全與場地</a>
-      <a href="rules.html">報名須知</a>
+      <a href="faq.html">常見問題</a>
       <a href="contact.html">交通與聯絡</a>
+      <a class="primary" href="booking.html">預約體驗課</a>
     </div>
-    <a href="https://forms.gle/tbWaPCT3tDm143YC9" target="_blank" rel="noopener" class="nav-cta">立即填表 →</a>
   </div>
 </nav>
 
-<!-- PAGE HERO -->
-<section class="page-hero">
-  <div class="ph-inner">
-    <div class="ph-eyebrow">BOOK A TRIAL · 預約體驗課</div>
-    <h1>來試<br>第一堂。</h1>
-    <p class="ph-lead">不用先想太多，也 <strong>不需要任何基礎</strong>。先來一堂體驗課，讓教練看你的狀況、幫你抓進度。試了再決定要不要加入，選一個你最順手的方式預約。</p>
+<main>
+<section class="page-head">
+  <div class="container">
+    <div class="eyebrow">BOOK A TRIAL · 預約體驗課</div>
+    <h1>來試第一堂。</h1>
+    <p class="section-sub">不用先想太多，也<span class='highlight'>不需要任何基礎</span>。付費體驗課，內容與正式課相同、教練全程保護。試了再決定要不要加入。圓山館 Google 評論 <span class='highlight'>4.9 ★</span>（74 則）。</p>
   </div>
 </section>
 
-<!-- 三步驟 -->
-<section>
+<section class="section">
   <div class="container">
     <div class="section-head">
       <div class="section-num">01</div>
-      <div>
-        <h2>三步驟<br><span class="acid">完成</span> 預約。</h2>
-        <div class="sub">HOW IT WORKS · 很簡單</div>
-      </div>
+      <div><h2>三步驟完成預約</h2><p class="section-sub">很簡單，不用想太多。</p></div>
     </div>
-    <div class="steps-grid">
-      <div class="step">
-        <div class="step-no">01</div>
-        <h3>選課程</h3>
-        <p>不確定適合哪一班？沒關係。告訴我們年齡與想練的方向（空翻、Tricking、幼兒體操），其餘交給教練判斷。</p>
-      </div>
-      <div class="step">
-        <div class="step-no">02</div>
-        <h3>約時段</h3>
-        <p>用電話、LINE 或線上表單告訴我們方便的時間，我們會跟你確認可預約的體驗時段與場館。</p>
-      </div>
-      <div class="step">
-        <div class="step-no">03</div>
-        <h3>來上課</h3>
-        <p>穿輕便、好活動的服裝來就行，場地與護具我們都準備好了。下課時，你通常已經學會一個新動作。</p>
-      </div>
-    </div>
+    <div class="steps">
+    <div class="step"><b>01 選課程</b><span>不確定適合哪一班？沒關係。告訴我們年齡與想練的方向（空翻、Tricking、幼兒體操），其餘交給教練判斷。</span></div>
+    <div class="step"><b>02 約時段</b><span>用電話或 LINE 告訴我們方便的時間，我們會跟你確認可預約的體驗時段與場館。</span></div>
+    <div class="step"><b>03 來上課</b><span>穿輕便、好活動的服裝來就行，場地與護具我們都準備好了。下課時，你通常已經學會一個新動作。</span></div>
+  </div>
   </div>
 </section>
 
-<!-- 體驗課須知 -->
-<section class="info-band">
+<section class="section safety">
   <div class="container">
     <div class="section-head">
       <div class="section-num">02</div>
-      <div>
-        <h2>體驗課<br><span class="acid">須知</span>。</h2>
-        <div class="sub">GOOD TO KNOW · 來之前先看</div>
-      </div>
+      <div><h2>體驗課須知</h2><p class="section-sub">來之前先看，到場不慌張。</p></div>
     </div>
-    <div class="info-grid">
-      <div class="info-card">
-        <span class="ic">💰</span>
-        <h3>體驗課費用</h3>
-        <p>付費體驗課，內容與正式課相同、教練全程保護，課後附成果影片。費用與時段請洽 LINE 確認。</p>
-      </div>
-      <div class="info-card">
-        <span class="ic">👕</span>
-        <h3>穿什麼</h3>
-        <p>輕便、排汗、好活動的運動服即可。場地內赤腳或穿襪皆可，護具與器材我們都準備好了。</p>
-      </div>
-      <div class="info-card">
-        <span class="ic">🎂</span>
-        <h3>適合誰</h3>
-        <p>2 歲半幼兒到 45 歲大人都能練，零運動基礎也歡迎。不分性別、不分體能，從你的起點開始。</p>
-      </div>
-      <div class="info-card">
-        <span class="ic">🛟</span>
-        <h3>安全嗎</h3>
-        <p>頂級氣墊、軟墊、保護器材，教練全程陪同保護。循序漸進、不勉強，放心挑戰。</p>
-      </div>
-      <div class="info-card">
-        <span class="ic">📍</span>
-        <h3>在哪裡上</h3>
-        <p>圓山館（捷運圓山站）／重慶館（捷運大橋頭站）。預約時我們會幫你確認場館與時段。</p>
-      </div>
-      <div class="info-card">
-        <span class="ic">⏱️</span>
-        <h3>多快回覆</h3>
-        <p>填表或私訊後，我們通常幾小時內就會跟你聯繫，確認時段與後續細節。</p>
-      </div>
-    </div>
+    <div class="safety-list">
+    <article class="safety-item">
+      <div class="small-label">PRICE</div>
+      <h3>體驗課費用</h3>
+      <p>付費體驗課，內容與正式課相同、教練全程保護，課後附成果影片。費用與時段請洽 LINE 確認。</p>
+    </article>
+    <article class="safety-item">
+      <div class="small-label">WEAR</div>
+      <h3>穿什麼</h3>
+      <p>輕便、排汗、好活動的運動服即可。場地內赤腳或穿襪皆可，護具與器材我們都準備好了。</p>
+    </article>
+    <article class="safety-item">
+      <div class="small-label">WHO</div>
+      <h3>適合誰</h3>
+      <p>2 歲半幼兒到 45 歲大人都能練，零運動基礎也歡迎。不分性別、不分體能，從你的起點開始。</p>
+    </article>
+    <article class="safety-item">
+      <div class="small-label">SAFE</div>
+      <h3>安全嗎</h3>
+      <p>頂級氣墊、軟墊、保護器材，教練全程陪同保護。循序漸進、不勉強，放心挑戰。</p>
+    </article>
+    <article class="safety-item">
+      <div class="small-label">PLACE</div>
+      <h3>在哪裡上</h3>
+      <p>圓山館（捷運圓山站）／重慶館（捷運大橋頭站）。預約時我們會幫你確認場館與時段。</p>
+    </article>
+    <article class="safety-item">
+      <div class="small-label">REPLY</div>
+      <h3>多快回覆</h3>
+      <p>LINE 私訊或來電後，我們通常幾小時內就會跟你聯繫，確認時段與後續細節。</p>
+    </article>
+  </div>
   </div>
 </section>
 
-<!-- 預約方式 -->
-<section class="contact" style="border-bottom:2px solid var(--acid);">
+<section class="section">
   <div class="container">
-    <h2>選一個<br><span class="acid">最順手的</span>。</h2>
-    <p class="lead">三種預約方式，挑你最方便的。我們通常幾小時內回覆。</p>
-    <div class="contact-grid">
-      <a href="tel:0955305205" class="contact-card">
-        <div class="ico">☎</div>
-        <h4>PHONE / 鮪魚老師</h4>
-        <div class="val">0955-305-205</div>
-      </a>
-      <a href="https://line.me/R/ti/p/@362krgjo" target="_blank" rel="noopener" class="contact-card">
-        <div class="ico">L</div>
-        <h4>LINE 官方帳號</h4>
-        <div class="val">@362krgjo</div>
-      </a>
-      <a href="https://forms.gle/tbWaPCT3tDm143YC9" target="_blank" rel="noopener" class="contact-card">
-        <div class="ico">✎</div>
-        <h4>ONLINE FORM</h4>
-        <div class="val">立即填寫</div>
-      </a>
+    <div class="section-head">
+      <div class="section-num">03</div>
+      <div><h2>選一個最順手的</h2><p class="section-sub">兩種預約方式，我們通常幾小時內回覆。</p></div>
+    </div>
+    <div class="contact-strip">
+      <a class="contact-link" href="tel:0955305205"><b>電話</b><span>0955-305-205</span></a>
+      <a class="contact-link" href="https://line.me/R/ti/p/@362krgjo" target="_blank" rel="noopener"><b>LINE 官方帳號</b><span>@362krgjo</span></a>
     </div>
   </div>
 </section>
-
-<!-- 一句心得佐證 -->
-<section class="reviews">
-  <div class="container">
-    <div class="review-feature">
-      <div class="score-block">
-        <div class="score">4.9</div>
-        <div class="stars">★★★★★</div>
-        <div class="from">圓山館 ｜ 72 則 GOOGLE 評論</div>
-      </div>
-      <div class="quote-block">
-        <div class="label">學員怎麼說 / 真實評論</div>
-        <blockquote>「我的基礎很爛、身體又很硬，教練總是有辦法一步一步找出我的問題，給我很大的情緒價值，讓我不要自我放棄。」</blockquote>
-        <div class="author">— WENDEE HSU ｜ GOOGLE 在地嚮導</div>
-      </div>
-    </div>
-  </div>
-</section>
+</main>
 
 <footer>
-  <div class="footer-mega">CHANGXING<br>EXTREME.</div>
   <div class="footer-nav">
     <a href="index.html">首頁</a>
     <a href="courses.html">課程介紹</a>
@@ -180,20 +155,15 @@
     <a href="course-adult.html">成人極限武術</a>
     <a href="course-flip.html">空翻專攻班</a>
     <a href="safety.html">安全與場地</a>
-    <a href="rules.html">報名須知</a>
+    <a href="faq.html">常見問題</a>
     <a href="booking.html">預約體驗課</a>
     <a href="contact.html">交通與聯絡</a>
   </div>
   <div class="footer-inner">
-    <div class="footer-meta">© 2026 長興極限空間 · TRICKING TAIWAN · EST. 2014</div>
-    <div class="socials">
-      <a href="https://www.facebook.com/share/16Ws2UFSaF" target="_blank" rel="noopener">f</a>
-      <a href="https://www.instagram.com/changxing_extreme/" target="_blank" rel="noopener">IG</a>
-      <a href="https://www.youtube.com/channel/UC_HUsJezgCprkdHkHRS8VMQ" target="_blank" rel="noopener">YT</a>
-    </div>
+    <div>© 2026 長興極限空間 · EST. 2014</div>
+    <div>FB @長興極限空間 · IG @changxing_extreme</div>
   </div>
 </footer>
-
 
 <div class="sticky-cta">
   <a class="call" href="tel:0955305205">☎ 0955-305-205</a>
